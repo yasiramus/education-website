@@ -1,0 +1,149 @@
+/* these stylying are for the head component  */
+.head{
+
+    padding: 20px 0;
+    color: #fff;
+
+}
+
+/* logo style  */
+.logo h1{
+
+    font-size: 35px;
+    font-weight: 900;
+
+}
+
+/* icons style  */
+.head .icon{
+
+    margin-left: 10px;
+
+}
+
+/*___________html header___________*/
+header{
+
+    margin: 0 30px;
+    background-color: rgba(255, 255, 255, .2);
+
+}
+
+/* unordered list style  */
+header ul{
+
+padding: 30px 20px;
+
+}
+
+/* list style  */
+header li {
+
+margin-left: 40px;
+
+}
+
+/* link style  */
+header ul li a {
+
+    color: #fff;
+    font-weight: 500;
+    transition: .5s;
+
+}
+
+/* hover on the link  */
+header ul li a:hover{
+    
+    color: #1eb2a6;
+
+}
+
+/* get started text  */
+.start {
+
+    background-color: #1eb2a6;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+/* toggle button  */
+.toggle {
+
+    display: none;
+
+}
+
+/* media query styling  on break point 768 */
+/* for the headerjsx component  */
+@media screen and (max-width:768px) {
+
+    /* get started text  */
+    .start {
+
+        clip-path: none;
+
+    }
+
+    /* header  */
+    header {
+
+        margin: 0;
+        background-color: #1eb2a6;
+        position: relative;
+        
+    }
+
+    /* ul style */
+    header ul.flexSB {
+        
+        display: none;
+        
+    }
+    
+    /* list style  */
+    header ul li {
+
+        margin-bottom: 20px;
+
+    }
+
+    /* hover for the list  */
+    header ul li:hover {
+
+        background: #858484;
+        padding: 20px 10px ;
+        transition: .5s;
+
+    }
+
+    /* toogles */
+    .toggle {
+
+        cursor: pointer;
+        display: block;
+        background: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 50px;
+        top: 25px;
+
+    }
+
+    /* .mobile-nav */
+    .mobile-nav {
+
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+
+    }
+
+}
+
+

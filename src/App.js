@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+// importations of BrowserRouter as Router, Switch, Route Link from react-router-dom 
+import { BrowserRouter as Router } from "react-router-dom";
+
+// this is also a parent component 
 import './App.css';
 
-function App() {
+// import Home from "./pages/home";
+
+// the header component 
+import Header from './components/headings/Header';
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+
+      <Router>
+
+      <Header />
+
+          {/* <Route path="/about">
+
+            <About />
+
+          </Route> */}
+         
+      </Router>
+      
     </div>
-  );
+
+  )
 }
 
 export default App;
+
+
+
