@@ -55,17 +55,20 @@ const CourseCard = () => {
                                         <div className="details">
                                             
                                             {/* this because i am fetching from the nested data from the course teacher key  */}
-                                            {val.courTeacher.map(detail => (
+                                            {val.courTeacher.map((detail, index) => (
 
-                                                <>
-                                                <div className="box">
+                                                <div key={index} >
 
+                                                <div className="box" >
+
+                                                        {/* image container for nested array of objects  */}
                                                     <div className="dimg">
 
                                                         <img src={detail.dcover} alt={detail.dcover} />
                                                         
                                                     </div>
 
+                                                        {/* tutor name section */}
                                                     <div className="para">
                                                     
                                                         <h4>{detail.name}</h4>
@@ -76,7 +79,7 @@ const CourseCard = () => {
 
                                                 <span>{detail.totalTime }</span>
                                                     
-                                                </>
+                                                </div>
 
                                             ))}
 

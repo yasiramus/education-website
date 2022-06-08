@@ -8,6 +8,8 @@ import Back from "../../components/back/Back";
 // course card components 
 import CourseCard from "./CourseCard";
 
+import OnlineCourses from "./OnlineCourses";
+
 const CourseHome = () => {
 
     return (
@@ -17,6 +19,8 @@ const CourseHome = () => {
             <Back Title={"Explore Courses "} />
 
             <CourseCard/>
+
+            <OnlineCourses/>
             
         </>
         

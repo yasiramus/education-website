@@ -71,6 +71,7 @@
 
 }
 
+/* this is  the styling for the nestd array of objects  */
 .coursesCard .details .dimg img {
 
     width: 50px;
@@ -128,6 +129,7 @@
 
 }
 
+/* styling for the price  */
 .coursesCard h3 {
 
     font: weight 500;

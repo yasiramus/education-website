@@ -45,11 +45,12 @@ export const homeAbout = [
     {
       id: 1,
       cover: "../../images/courses/c1.png",
-      coursesName: "Introducing to Software Engineering",
+      // coursesName: "Introducing to Software Engineering",
+      coursesName: "How to become Software Engineer",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by John Smith",
+          dcover: "../../images/courses/krist.jpg",
+          name: "by Kristine Awurafua Laing",
           totalTime: "50 lectures (190 hrs)",
         },
       ],
@@ -62,8 +63,8 @@ export const homeAbout = [
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "./Images/back.webp",
-          name: "by Abigail Amartey",
+          dcover: "../../images/courses/sabali.jpg",
+          name: "by Ibrahim Lukman",
           totalTime: "30 lectures (125 hrs)",
         },
       ],
@@ -87,10 +88,10 @@ export const homeAbout = [
     {
       id: 4,
       cover: "../images/courses/c4.png",
-      coursesName: "Introdution to Programming with WordPress",
+      coursesName: "Introdution to Creating a Websites with WordPress",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: "../../images/courses/muba.jpg",
           name: "by Mubarak Salifu",
           totalTime: "20 lectures (20 hrs)",
         },
@@ -104,8 +105,8 @@ export const homeAbout = [
       coursesName: "Introduction to Coding with ReactJS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Suraj",
+          dcover: "../../images/courses/rich.jpg",
+          name: "by Racheak Kuranchie",
           totalTime: "100 lectures (150 hrs)",
         },
       ],
@@ -118,8 +119,8 @@ export const homeAbout = [
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Blossom",
+          dcover: "../../images/courses/blossom.jpg",
+          name: "by Blossom Dugbatey",
           totalTime: "200 lectures (300 hrs)",
         },
       ],
@@ -132,8 +133,8 @@ export const homeAbout = [
       coursesName: "Introdution to  HTML / CSS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Ushama",
+          dcover: "../../images/courses/ushama.jpg",
+          name: "by Ushama Abdul Wahab",
           totalTime: "20 lectures (50 hrs)",
         },
       ],
@@ -146,8 +147,8 @@ export const homeAbout = [
       coursesName: "Introduction to JAVA",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Albetha",
+          dcover: "../../images/courses/alberta.jpg",
+          name: "by Albetha Mensah",
           totalTime: "80 lectures (200 hrs)",
         },
       ],
@@ -160,8 +161,8 @@ export const homeAbout = [
       coursesName: "Introdution to HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
-          dcover: "../../Images/courses/yasira.jpg",
-          name: "by Yasira Musah",
+          dcover: "../../Images/courses/suzzy.jpg",
+          name: "by Suzzy Smith",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
@@ -171,75 +172,75 @@ export const homeAbout = [
   ]
   export const online = [
     {
-      cover: "./images/courses/online/o1.png",
-      hoverCover: "./images/courses/online/o1.1.png",
+      cover: "./images/onlineCourses/o1.png",
+      hoverCover: "./images/onlineCourses/o1.1.png",
       courseName: "UI/UX Design Courses",
       course: "25 Courses",
     },
     {
-      cover: "./images/courses/online/o2.png",
-      hoverCover: "./images/courses/online/o2.1.png",
+      cover: "./images/onlineCourses/o2.png",
+      hoverCover: "./images/onlineCourses/o2.1.png",
       courseName: "Art & Design",
       course: "25 Courses",
     },
     {
-      cover: "./images/courses/online/o3.png",
-      hoverCover: "./images/courses/online/o3.1.png",
+      cover: "./images/onlineCourses/o3.png",
+      hoverCover: "./images/onlineCourses/o3.1.png",
       courseName: "Computer Science",
       course: "10 Courses",
     },
     {
-      cover: "./images/courses/online/o4.png",
-      hoverCover: "./images/courses/online/o4.1.png",
+      cover: "./images/onlineCourses/o4.png",
+      hoverCover: "./images/onlineCourses/o4.1.png",
       courseName: "History & Archeologic",
       course: "15 Courses",
     },
     {
-      cover: "./images/courses/online/o5.png",
-      hoverCover: "./images/courses/online/o5.1.png",
-      courseName: "Software Engineering",
+      cover: "./images/onlineCourses/o5.png",
+      hoverCover: "./images/onlineCourses/o5.1.png",
+      courseName: "Software Engineer",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o6.png",
-      hoverCover: "./images/courses/online/o6.1.png",
-      courseName: "Information Software",
+      cover: "./images/onlineCourses/o6.png",
+      hoverCover: "./images/onlineCourses/o6.1.png",
+      courseName: "Computer Software",
       course: "60 Courses",
     },
     {
-      cover: "./images/courses/online/o7.png",
-      hoverCover: "./images/courses/online/o7.1.png",
+      cover: "./images/onlineCourses/o7.png",
+      hoverCover: "./images/onlineCourses/o7.1.png",
       courseName: "Health & Fitness",
       course: "10 Courses",
     },
     {
-      cover: "./images/courses/online/o8.png",
-      hoverCover: "./images/courses/online/o8.1.png",
+      cover: "./images/onlineCourses/o8.png",
+      hoverCover: "./images/onlineCourses/o8.1.png",
       courseName: "Marketing",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o9.png",
-      hoverCover: "./images/courses/online/o9.1.png",
+      cover: "./images/onlineCourses/o9.png",
+      hoverCover: "./images/onlineCourses/o9.1.png",
       courseName: "Graphic Design",
       course: "80 Courses",
     },
     {
-      cover: "./images/courses/online/o10.png",
-      hoverCover: "./images/courses/online/o10.1.png",
+      cover: "./images/onlineCourses/o10.png",
+      hoverCover: "./images/onlineCourses/o10.1.png",
       courseName: "Music",
       course: "120 Courses",
     },
     {
-      cover: "./images/courses/online/o11.png",
-      hoverCover: "./images/courses/online/o11.1.png",
+      cover: "./images/onlineCourses/o11.png",
+      hoverCover: "./images/onlineCourses/o11.1.png",
       courseName: "Business Administration",
       course: "17 Courses",
     },
     {
-      cover: "./images/courses/online/o12.png",
-      hoverCover: "./images/courses/online/o12.1.png",
-      courseName: "Web Management",
+      cover: "./images/onlineCourses/o12.png",
+      hoverCover: "./images/onlineCourses/o12.1.png",
+      courseName: "Web Developement",
       course: "17 Courses",
     },
   ]

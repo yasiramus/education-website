@@ -1,0 +1,98 @@
+.onlineCourses {
+
+    text-align:center;
+
+}
+
+.grid3 {
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr) ;
+    grid-gap: 10px;
+
+}
+
+.onlineCourses .box {
+
+    box-shadow:0 5px 25px -2px rgba(0 0 0 /6%);
+    background-color:#fff;
+    padding:30px 20px;
+    transition:.5s;
+
+}
+
+.onlineCourses .img {
+
+    width:80px;
+    height:80px;
+    margin:auto;
+    position:relative;
+}
+
+.onlineCourses img {
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+} 
+
+.onlineCourses h1 {
+
+    font-weight:500;
+    font-size:20px;
+    margin:20px 0;
+    line-height :30px;
+
+}
+
+.onlineCourses  span {
+
+    background-color:#f8f8f8;
+    padding:5px 20px;
+    font-weight:500;
+    font-size:15px;
+    color:#1eb2a6;
+    border-radius: 5px;
+
+}
+
+.onlineCourses .box .show {
+
+    opacity:0;
+
+}
+
+.onlineCourses .box:hover {
+
+    background-color:#1eb2a6;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+
+.onlineCourses .box .show:hover {
+
+    opacity:1;
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+
+.onlineCourses .box h1 {
+
+    color:#fff;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .grid3, 
+    .grid2 {
+
+    grid-template-columns: repeat(2, 1fr);
+            
+    }
+
+}
