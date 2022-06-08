@@ -1,0 +1,73 @@
+.wrapper {
+
+    background-image:url("../../../public/Images/wrapper.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 14rem; */
+    /* height: 30vh; */
+    height: auto;
+    color: #fff;
+
+}
+
+.wrapper .box {
+
+    padding: 70px 0;
+}
+
+.wrapper img {
+
+    margin-right: 30px;
+
+}
+
+.wrapper h1 {
+
+    font-size: 50px;
+
+}
+
+.wrapper h3 {
+
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 30px; */
+    column-gap: 50px;
+    /* margin: 0 auto; */
+    margin-right: 85px;
+        
+}
+
+.flex {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width:768px) {
+
+    /* .wrapper {
+
+        height: 50vh;
+
+    } */
+
+    .grid {
+
+    grid-template-columns: repeat(2, 1fr);
+    margin:  auto;
+     
+        
+    }
+
+}

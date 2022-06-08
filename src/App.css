@@ -13,13 +13,13 @@
 body{
 
   font-family: 'Roboto', sans-serif;
-  /* background-color: #f8f8f8; */
-  background-color: #858484;
+  background-color: #f8f8f8;
+  /* background-color: #858484; */
   
 }
 
 /* these styling is for the container in the head component  */
-.container{
+.container {
 
   max-width: 85%;
   margin: auto;
