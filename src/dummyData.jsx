@@ -44,7 +44,7 @@ export const homeAbout = [
   export const coursesCard = [
     {
       id: 1,
-      cover: "../images/courses/c1.png",
+      cover: "../../images/courses/c1.png",
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
@@ -62,8 +62,8 @@ export const homeAbout = [
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Ram Gurung",
+          dcover: "./Images/back.webp",
+          name: "by Abigail Amartey",
           totalTime: "30 lectures (125 hrs)",
         },
       ],
@@ -76,8 +76,8 @@ export const homeAbout = [
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Saroj Nepal",
+          dcover: "../../images/courses/yasira.jpg",
+          name: "by Yasira Musah",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
@@ -87,11 +87,11 @@ export const homeAbout = [
     {
       id: 4,
       cover: "../images/courses/c4.png",
-      coursesName: "Introducing to Programming with WordPress",
+      coursesName: "Introdution to Programming with WordPress",
       courTeacher: [
         {
           dcover: "./images/back.webp",
-          name: "by Prabin Thapa Mager",
+          name: "by Mubarak Salifu",
           totalTime: "20 lectures (20 hrs)",
         },
       ],
@@ -101,11 +101,11 @@ export const homeAbout = [
     {
       id: 5,
       cover: "../images/courses/c5.png",
-      coursesName: "Introducing to Programming with ReactJS",
+      coursesName: "Introduction to Coding with ReactJS",
       courTeacher: [
         {
           dcover: "./images/back.webp",
-          name: "by Sunil Bishowkaram",
+          name: "by Suraj",
           totalTime: "100 lectures (150 hrs)",
         },
       ],
@@ -119,7 +119,7 @@ export const homeAbout = [
       courTeacher: [
         {
           dcover: "./images/back.webp",
-          name: "by Sunil Bishowkaram",
+          name: "by Blossom",
           totalTime: "200 lectures (300 hrs)",
         },
       ],
@@ -129,11 +129,11 @@ export const homeAbout = [
     {
       id: 7,
       cover: "../images/courses/c7.png",
-      coursesName: "Introducing to with HTML / CSS",
+      coursesName: "Introdution to  HTML / CSS",
       courTeacher: [
         {
           dcover: "./images/back.webp",
-          name: "by Price",
+          name: "by Ushama",
           totalTime: "20 lectures (50 hrs)",
         },
       ],
@@ -143,11 +143,11 @@ export const homeAbout = [
     {
       id: 8,
       cover: "../images/courses/c8.png",
-      coursesName: "Introducing to with JAVA",
+      coursesName: "Introduction to JAVA",
       courTeacher: [
         {
           dcover: "./images/back.webp",
-          name: "by Petter",
+          name: "by Albetha",
           totalTime: "80 lectures (200 hrs)",
         },
       ],
@@ -157,11 +157,11 @@ export const homeAbout = [
     {
       id: 9,
       cover: "../images/courses/c9.png",
-      coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+      coursesName: "Introdution to HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Petter",
+          dcover: "../../Images/courses/yasira.jpg",
+          name: "by Yasira Musah",
           totalTime: "50 lectures (50 hrs)",
         },
       ],

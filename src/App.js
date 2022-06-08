@@ -6,7 +6,12 @@ import './App.css';
 
 // the header component 
 import Header from './components/headings/Header';
+
+// about Component
 import About from "./pages/about/About";
+
+// course home Component
+import CourseHome from "./pages/courses/CourseHome";
 
 // home component 
 import Home from './pages/home/Home';
@@ -28,7 +33,10 @@ const App = () => {
           <Route index element = { <Home/> }></Route>
          
           {/* about component route */}
-          <Route path = "/about" element = { <About/> } ></Route>
+          <Route path="/about" element={<About />} ></Route>
+          
+          {/* courses component */}
+          <Route path="/courses" element = {< CourseHome/>}></Route>
 
         </Routes>
 
