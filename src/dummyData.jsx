@@ -246,44 +246,52 @@ export const homeAbout = [
   ]
   export const team = [
     {
-      cover: "./images/team/t1.webp",
-      name: "Ph.D Adrian Molises",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/teams/abigail.jpg",
+      name: "Abigail Amartey",
+      work: "UI UX LEAD INSTRUCTOR",
     },
+  
     {
-      cover: "./images/team/t2.webp",
-      name: "Ph.D Arthur MaGregor",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/teams/najt.jpg",
+      name: "Najat Bint Yakubu",
+      work: "COMMUNITY MANAGER FOR ZONGO OVATION",
     },
+
     {
-      cover: "./images/team/t3.webp",
-      name: "Ph.D Anna Hanzen",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/teams/muft.jpg",
+      name: "Mufti Zaharadeen Umar",
+      work: "PROGRAM LEAD",
     },
+  
     {
-      cover: "./images/team/t4.webp",
-      name: "Ph.D Brian Wooden",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/teams/grace.jpg",
+      name: "Grace Aidoo",
+      work: "PROGRAM COORDINATOR",
     },
+
     {
-      cover: "./images/team/t5.webp",
-      name: "Ph.D Adrian Molises",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+     
+      cover: "./images/teams/yasira.jpg",
+      name: "Yasira",
+      work: "DEVELOPER LEAD INSTRUCTOR",
     },
+
     {
-      cover: "./images/team/t6.webp",
-      name: "Ph.D Arthur MaGregor",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/teams/rich.jpg",
+      name: "Racheal Kuranchie",
+      work: "DEBUGGING LEAD INSTRUCTOR",
     },
+    
     {
-      cover: "./images/team/t7.webp",
-      name: "Ph.D Anna Hanzen",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/teams/ushama.jpg",
+      name: "Ushama",
+      work: "DEVELOPER AND INSTRUCTOR",
     },
+
     {
-      cover: "./images/team/t8.webp",
-      name: "Ph.D Brian Wooden",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: "./images/teams/enam.jpg",
+      name: "Kodzo Enam",
+      work: "COORDINATOR LEAD",
     },
   ]
   export const price = [
@@ -403,24 +411,25 @@ export const homeAbout = [
   export const testimonal = [
     {
       id: 1,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
+      name: "NAJAT",
+      post: "COMMUNITY MANAGER",
+      desc: "The technology you use impresses no one. The experience you create with it is matters.",
+      cover: "./images/test/naj.jpg",
     },
     {
       id: 2,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
+      name: "ABDALLAH",
+      post: "TECHPRENUER",
+      desc: "Let's go invent for tomorrow instead of worrying about what happened yesterday.",
+     cover: "./images/test/abdallah.jpg",    
     },
     {
       id: 3,
-      name: "ROGER SCOTT",
-      post: "MARKETING MANAGER",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
+      name: "THERESA",
+      post: "TECHPRENUER",
+      desc:"Technology is nothing. Whats important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
+      cover: "./images/test/stancy1.jpg",
+
       },
     // testimonial dummy data ends here  
 

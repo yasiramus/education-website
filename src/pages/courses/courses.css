@@ -71,6 +71,12 @@
 
 }
 
+.coursesCard .rate span{
+
+    color: grey;
+
+}
+
 /* this is  the styling for the nestd array of objects  */
 .coursesCard .details .dimg img {
 
@@ -132,7 +138,17 @@
 /* styling for the price  */
 .coursesCard h3 {
 
-    font: weight 500;
+    font-weight: 400;
     color:#1eb2a6;
+
+}
+
+@media screen and (max-width:768px) {
+ 
+    .grid2 {
+
+    grid-template-columns: repeat(2, 1fr);
+            
+    }
 
 }

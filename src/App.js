@@ -7,14 +7,17 @@ import './App.css';
 // the header component 
 import Header from './components/headings/Header';
 
+// home component 
+import Home from './pages/home/Home';
+
 // about Component
 import About from "./pages/about/About";
 
 // course home Component
 import CourseHome from "./pages/courses/CourseHome";
 
-// home component 
-import Home from './pages/home/Home';
+// team component 
+import Teams from "./pages/teams/Teams";
 
 const App = () => {
 
@@ -36,7 +39,10 @@ const App = () => {
           <Route path="/about" element={<About />} ></Route>
           
           {/* courses component */}
-          <Route path="/courses" element = {< CourseHome/>}></Route>
+          <Route path="/courses" element={<CourseHome/>}></Route>
+          
+          {/* teams component */}
+          <Route path="/team" element = {<Teams/>}></Route>
 
         </Routes>
 

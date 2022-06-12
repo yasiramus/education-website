@@ -114,11 +114,21 @@ header ul li a:hover{
     /* hover for the list  */
     header ul li:hover {
 
-        background: #858484;
-        padding: 20px 10px ;
-        transition: .5s;
+        /* background: #858484; */
+        /* padding: 20px 10px ; */
+        /* transition: .5s; */
+        color:#fff;
 
     }
+
+    /* hover on the link  */
+    header ul li a:hover{
+    
+    color: #0af8e4;
+    transition: .2s;
+
+}
+
 
     /* toogles */
     .toggle {

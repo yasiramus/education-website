@@ -1,0 +1,94 @@
+/* Team component css  */
+
+.Team .items {
+
+transition: .5s;
+}
+
+.Team .img {
+
+    position: relative;
+}
+
+.Team img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: .5s;
+    opacity: 0;
+
+}
+
+.overlay i {
+
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+
+}
+
+.Team .details {
+
+    padding: 30px;
+    text-align: center;
+
+}
+
+.Team .details h2 {
+
+    font-weight: 500;
+    font-size: 20px;
+    transition: .5s;
+    
+}
+
+.Team .details p {
+
+    font-size: 15px;
+    color:grey;
+    margin-top: 10px;
+    transition: .5s;
+
+}
+
+.Team .items:hover {
+
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.Team .items:hover p {
+
+    color: #fff;
+}
+
+.Team .items:hover .overlay {
+
+    opacity: 1;
+
+}
+
+.Padding {
+
+    padding: 0 0 80px 0;
+
+}
+
+.shadow {
+
+    box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 6%);
+    background-color: #fff;
+
+}
