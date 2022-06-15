@@ -258,7 +258,7 @@ export const homeAbout = [
     },
 
     {
-      cover: "./Images/teams/muft.jpg",
+      cover: "./Images/teams/umar.JPG",
       name: "Mufti Zaharadeen Umar",
       work: "PROGRAM LEAD",
     },
