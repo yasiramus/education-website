@@ -17,7 +17,7 @@ export const homeAbout = [
       title: "Learn with Expert",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
-  ]
+]
   export const awrapper = [
     {
       cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
@@ -226,8 +226,8 @@ export const homeAbout = [
       course: "80 Courses",
     },
     {
-      cover: "./images/onlineCourses/o10.png",
-      hoverCover: "./images/onlineCourses/o10.1.png",
+      cover: "./Images/onlineCourses/o10.png",
+      hoverCover: "./Images/onlineCourses/o10.1.png",
       courseName: "Music",
       course: "120 Courses",
     },
@@ -414,21 +414,21 @@ export const homeAbout = [
       name: "NAJAT",
       post: "COMMUNITY MANAGER",
       desc: "The technology you use impresses no one. The experience you create with it is matters.",
-      cover: "./images/test/naj.jpg",
+      cover: "./Images/test/naj.jpg",
     },
     {
       id: 2,
       name: "ABDALLAH",
       post: "TECHPRENUER",
       desc: "Let's go invent for tomorrow instead of worrying about what happened yesterday.",
-     cover: "./images/test/abdallah.jpg",    
+     cover: "./Images/test/abdallah.jpg",    
     },
     {
       id: 3,
       name: "THERESA",
       post: "TECHPRENUER",
       desc:"Technology is nothing. Whats important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
-      cover: "./images/test/stancy1.jpg",
+      cover: "./Images/test/stancy1.jpg",
 
       },
     // testimonial dummy data ends here  
