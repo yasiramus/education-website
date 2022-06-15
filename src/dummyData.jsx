@@ -44,12 +44,12 @@ export const homeAbout = [
   export const coursesCard = [
     {
       id: 1,
-      cover: "../../images/courses/c1.png",
+      cover: "../../Images/courses/c1.png",
       // coursesName: "Introducing to Software Engineering",
       coursesName: "How to become Software Engineer",
       courTeacher: [
         {
-          dcover: "../../images/courses/krist.jpg",
+          dcover: "../../Images/courses/krist.jpg",
           name: "by Kristine Awurafua Laing",
           totalTime: "50 lectures (190 hrs)",
         },
@@ -59,11 +59,11 @@ export const homeAbout = [
     },
     {
       id: 2,
-      cover: "../images/courses/c2.png",
+      cover: "../Images/courses/c2.png",
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "../../images/courses/sabali.jpg",
+          dcover: "../../Images/courses/sabali.jpg",
           name: "by Ibrahim Lukman",
           totalTime: "30 lectures (125 hrs)",
         },
@@ -73,11 +73,11 @@ export const homeAbout = [
     },
     {
       id: 3,
-      cover: "../images/courses/c3.png",
+      cover: "../Images/courses/c3.png",
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "../../images/courses/yasira.jpg",
+          dcover: "../../Images/courses/yasira.jpg",
           name: "by Yasira Musah",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -87,11 +87,11 @@ export const homeAbout = [
     },
     {
       id: 4,
-      cover: "../images/courses/c4.png",
+      cover: "../Images/courses/c4.png",
       coursesName: "Introdution to Creating a Websites with WordPress",
       courTeacher: [
         {
-          dcover: "../../images/courses/muba.jpg",
+          dcover: "../../Images/courses/muba.jpg",
           name: "by Mubarak Salifu",
           totalTime: "20 lectures (20 hrs)",
         },
@@ -101,11 +101,11 @@ export const homeAbout = [
     },
     {
       id: 5,
-      cover: "../images/courses/c5.png",
+      cover: "../Images/courses/c5.png",
       coursesName: "Introduction to Coding with ReactJS",
       courTeacher: [
         {
-          dcover: "../../images/courses/rich.jpg",
+          dcover: "../../Images/courses/rich.jpg",
           name: "by Racheak Kuranchie",
           totalTime: "100 lectures (150 hrs)",
         },
@@ -115,11 +115,11 @@ export const homeAbout = [
     },
     {
       id: 6,
-      cover: "../images/courses/c6.png",
+      cover: "../Images/courses/c6.png",
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "../../images/courses/blossom.jpg",
+          dcover: "../../Images/courses/blossom.jpg",
           name: "by Blossom Dugbatey",
           totalTime: "200 lectures (300 hrs)",
         },
@@ -129,11 +129,11 @@ export const homeAbout = [
     },
     {
       id: 7,
-      cover: "../images/courses/c7.png",
+      cover: "../Images/courses/c7.png",
       coursesName: "Introdution to  HTML / CSS",
       courTeacher: [
         {
-          dcover: "../../images/courses/ushama.jpg",
+          dcover: "../../Images/courses/ushama.jpg",
           name: "by Ushama Abdul Wahab",
           totalTime: "20 lectures (50 hrs)",
         },
@@ -143,11 +143,11 @@ export const homeAbout = [
     },
     {
       id: 8,
-      cover: "../images/courses/c8.png",
+      cover: "../Images/courses/c8.png",
       coursesName: "Introduction to JAVA",
       courTeacher: [
         {
-          dcover: "../../images/courses/alberta.jpg",
+          dcover: "../../Images/courses/alberta.jpg",
           name: "by Albetha Mensah",
           totalTime: "80 lectures (200 hrs)",
         },
@@ -157,7 +157,7 @@ export const homeAbout = [
     },
     {
       id: 9,
-      cover: "../images/courses/c9.png",
+      cover: "../Images/courses/c9.png",
       coursesName: "Introdution to HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
@@ -172,56 +172,56 @@ export const homeAbout = [
   ]
   export const online = [
     {
-      cover: "./images/onlineCourses/o1.png",
-      hoverCover: "./images/onlineCourses/o1.1.png",
+      cover: "./Images/onlineCourses/o1.png",
+      hoverCover: "./Images/onlineCourses/o1.1.png",
       courseName: "UI/UX Design Courses",
       course: "25 Courses",
     },
     {
-      cover: "./images/onlineCourses/o2.png",
-      hoverCover: "./images/onlineCourses/o2.1.png",
+      cover: "./Images/onlineCourses/o2.png",
+      hoverCover: "./Images/onlineCourses/o2.1.png",
       courseName: "Art & Design",
       course: "25 Courses",
     },
     {
-      cover: "./images/onlineCourses/o3.png",
-      hoverCover: "./images/onlineCourses/o3.1.png",
+      cover: "./Images/onlineCourses/o3.png",
+      hoverCover: "./Images/onlineCourses/o3.1.png",
       courseName: "Computer Science",
       course: "10 Courses",
     },
     {
-      cover: "./images/onlineCourses/o4.png",
-      hoverCover: "./images/onlineCourses/o4.1.png",
+      cover: "./Images/onlineCourses/o4.png",
+      hoverCover: "./Images/onlineCourses/o4.1.png",
       courseName: "History & Archeologic",
       course: "15 Courses",
     },
     {
-      cover: "./images/onlineCourses/o5.png",
-      hoverCover: "./images/onlineCourses/o5.1.png",
+      cover: "./Images/onlineCourses/o5.png",
+      hoverCover: "./Images/onlineCourses/o5.1.png",
       courseName: "Software Engineer",
       course: "30 Courses",
     },
     {
-      cover: "./images/onlineCourses/o6.png",
-      hoverCover: "./images/onlineCourses/o6.1.png",
+      cover: "./Images/onlineCourses/o6.png",
+      hoverCover: "./Images/onlineCourses/o6.1.png",
       courseName: "Computer Software",
       course: "60 Courses",
     },
     {
-      cover: "./images/onlineCourses/o7.png",
-      hoverCover: "./images/onlineCourses/o7.1.png",
+      cover: "./Images/onlineCourses/o7.png",
+      hoverCover: "./Images/onlineCourses/o7.1.png",
       courseName: "Health & Fitness",
       course: "10 Courses",
     },
     {
-      cover: "./images/onlineCourses/o8.png",
-      hoverCover: "./images/onlineCourses/o8.1.png",
+      cover: "./Images/onlineCourses/o8.png",
+      hoverCover: "./Images/onlineCourses/o8.1.png",
       courseName: "Marketing",
       course: "30 Courses",
     },
     {
-      cover: "./images/onlineCourses/o9.png",
-      hoverCover: "./images/onlineCourses/o9.1.png",
+      cover: "./Images/onlineCourses/o9.png",
+      hoverCover: "./Images/onlineCourses/o9.1.png",
       courseName: "Graphic Design",
       course: "80 Courses",
     },
@@ -232,64 +232,64 @@ export const homeAbout = [
       course: "120 Courses",
     },
     {
-      cover: "./images/onlineCourses/o11.png",
-      hoverCover: "./images/onlineCourses/o11.1.png",
+      cover: "./Images/onlineCourses/o11.png",
+      hoverCover: "./Images/onlineCourses/o11.1.png",
       courseName: "Business Administration",
       course: "17 Courses",
     },
     {
-      cover: "./images/onlineCourses/o12.png",
-      hoverCover: "./images/onlineCourses/o12.1.png",
+      cover: "./Images/onlineCourses/o12.png",
+      hoverCover: "./Images/onlineCourses/o12.1.png",
       courseName: "Web Developement",
       course: "17 Courses",
     },
   ]
   export const team = [
     {
-      cover: "./images/teams/abigail.jpg",
+      cover: "./Images/teams/abigail.jpg",
       name: "Abigail Amartey",
       work: "UI UX LEAD INSTRUCTOR",
     },
   
     {
-      cover: "./images/teams/najt.jpg",
+      cover: "./Images/teams/najt.jpg",
       name: "Najat Bint Yakubu",
       work: "COMMUNITY MANAGER FOR ZONGO OVATION",
     },
 
     {
-      cover: "./images/teams/muft.jpg",
+      cover: "./Images/teams/muft.jpg",
       name: "Mufti Zaharadeen Umar",
       work: "PROGRAM LEAD",
     },
   
     {
-      cover: "./images/teams/grace.jpg",
+      cover: "./Images/teams/grace.jpg",
       name: "Grace Aidoo",
       work: "PROGRAM COORDINATOR",
     },
 
     {
      
-      cover: "./images/teams/yasira.jpg",
+      cover: "./Images/teams/yasira.jpg",
       name: "Yasira",
       work: "DEVELOPER LEAD INSTRUCTOR",
     },
 
     {
-      cover: "./images/teams/rich.jpg",
+      cover: "./Images/teams/rich.jpg",
       name: "Racheal Kuranchie",
       work: "DEBUGGING LEAD INSTRUCTOR",
     },
     
     {
-      cover: "./images/teams/ushama.jpg",
+      cover: "./Images/teams/ushama.jpg",
       name: "Ushama",
       work: "DEVELOPER AND INSTRUCTOR",
     },
 
     {
-      cover: "./images/teams/enam.jpg",
+      cover: "./Images/teams/enam.jpg",
       name: "Kodzo Enam",
       work: "COORDINATOR LEAD",
     },
