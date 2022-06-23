@@ -14,10 +14,7 @@ const Faq = () => {
     
     const [click, setClick] = useState(false);
 
-    const toggle = index => {
-
-        click === index ?  setClick(null) : setClick(index)
-    }
+    const toggle = index => click === index ? setClick(null) : setClick(index);
 
     return (
       
@@ -37,18 +34,30 @@ const Faq = () => {
 
                                 <h2>{val.title}</h2>
                                 
-                                <span>{click === Index ? <i className="fa fa-chevron-down"></i> : <i className="fa fa-chevron-right"></i>}</span>
+                                {/* arrow keys  */}
+                                <span>{click === Index ?
+                                    
+                                    // down arrow key 
+                                    <i className="fa fa-chevron-down"></i> :
+
+                                    // right arrow key 
+                                    <i className="fa fa-chevron-right"></i>}
+
+                                </span>
                                 
                             </button>
 
+                            {/* text center  */}
                             {click === Index ? (
                                 
+                                // show the description 
                                 <div className="text">
 
                                 <p>{val.desc}</p>
                                 
                                 </div>
                                 
+                                // nothing should be shown 
                             ) : null }
 
                         </div>
