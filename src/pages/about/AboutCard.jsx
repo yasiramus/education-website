@@ -24,7 +24,6 @@ const AboutCard = () => {
               {/* <img src="./images/about.webp" alt="about" /> */}
               <img src="./Images/happystudent.jpg" alt="about" />
 
-
             </div>
 
             <div className=" right row">

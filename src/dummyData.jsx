@@ -297,51 +297,52 @@ export const homeAbout = [
   export const price = [
     {
       name: "BASIC PLAN",
-      price: "49K",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      price: "50C",
+      desc: "Making the world a better place, starts with one more smiling face. And Ronald's smile is just the thing, To make everybody sing! Put a smile on, put a smile on, everybody come on! Put a smile on!.",
     },
     {
       name: "BEGINNER PLAN",
-      price: "79K",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      price: "69C",
+      desc: "The world looks mighty good to me, cause Tootsie Rolls are all I see. Whatever it is I think I see, becomes a Tootsie Roll to me! Tootsie Roll how I love your chocolatey chew, Tootsie Roll I think I'm in love with you. Whatever it is I think I see, becomes a Tootsie Roll to me!.",
     },
     {
       name: "PREMIUM PLAN",
-      price: "109k",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      price: "100C",
+      desc: "Making the world a better place, starts with one more smiling face. And Ronald's smile is just the thing, To make everybody sing! Put a smile on, put a smile on, everybody come on! Put a smile on!.",
     },
     {
       name: "ULTIMATE PLAN",
-      price: "149K",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      price: "150C",
+      desc: "The world looks mighty good to me, cause Tootsie Rolls are all I see. Whatever it is I think I see, becomes a Tootsie Roll to me! Tootsie Roll how I love your chocolatey chew, Tootsie Roll I think I'm in love with you. Whatever it is I think I see, becomes a Tootsie Roll to me!.",
     },
 ]
   
 // online courses dummy data  
+// frequently asked questions dummy data 
   export const faq = [
     {
-      title: "How to Enroll This Online Courses?",
-      desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "How do I pay?",
+      desc: "We accept all major debit and credit cards. Your payment information is encrypted via our integration with Stripe. We will send you an invoice on the last week of the month or the first of the next month and after 3 - 5 days, we'll be charging your debit or credit cards.",
     },
     {
-      title: "Where It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "What happens if I don't finish the course?",
+      desc: "If you do not finish the course during the semester enrollment period, and if you do not request an incomplete, the course will appear on your University of Minnesota transcript with the grade of N (not completed), or a letter grade that reflects your course participation. You must officially drop from a course by the necessary deadline in order to remove the course from your transcript. You may also cancel the course and receive a “W” on your transcript and a tuition refund if you meet the refund deadlines for the semester.",
     },
     {
-      title: "How It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "What does the course number mean?",
+      desc: "The course number designates the level of instruction for which the course is intended. One thousand numbered courses are designed as introductory, general enrichment offerings. Unless otherwise specified, they require no previous background in the subject. Most of the Online Learning courses meet general learning and elective requirements for an undergraduate degree. Three and four thousand level courses offer more advanced study and often have prerequisites.",
     },
     {
-      title: "How to Enroll This Online Courses?",
-      desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "How will I be graded?",
+      desc: "The criteria for grading will be established by the faculty and outlined on the class syllabus. Online learning is very similar to an on-campus class experience; in this case the classroom is virtual.",
     },
     {
-      title: "Where It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "How long do I have to complete a course?",
+      desc: "Fall and spring semester courses will be completed during stated weeks of the designated term in which they are offered. Most Summer Term courses are five weeks in length; a few are ten weeks. Assignments and course requirements must be completed by the due dates set by your instructor in the course syllabus. Any variance of this timeframe would need to be pre-approved by the instructor.",
     },
     {
-      title: "How It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "How do I contact my course instructor?",
+      desc: "Instructors stay in touch with their Online Learning students in a variety of ways, depending on the course design. Your instructor will explain the best way to reach him or her within the course home pages. You may communicate with your instructor through discussion groups, bulletin boards, chat rooms, assignment submissions, through email, or by telephone.",
     },
 ]
 // online courses dummy data  ends here 

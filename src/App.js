@@ -19,6 +19,9 @@ import CourseHome from "./pages/courses/CourseHome";
 // team component 
 import Teams from "./pages/teams/Teams";
 
+// the price component 
+import Price from "./pages/pricing/Price";
+
 const App = () => {
 
   return (
@@ -44,6 +47,9 @@ const App = () => {
           {/* teams component */}
           <Route path="/team" element = {<Teams/>}></Route>
 
+           {/* price component */}
+          <Route path="/pricing" element={< Price/>}></Route>
+          
         </Routes>
 
       </Router>

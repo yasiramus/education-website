@@ -21,6 +21,7 @@
 
     width: 100px;
     height: 100px;
+    object-fit: cover;
     border-radius: 50%;
 
 }
@@ -38,5 +39,51 @@
 .testimonial .name {
 
     margin: 26px;
+    /* text-align: center; */
 
+}
+
+.testimonial .name h2 {
+
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+/* profession side  */
+.testimonial .name span {
+
+    color: #1eb2a6;
+
+}
+
+/* description side  */
+.testimonial p {
+
+    margin-top: 20px;
+    color: grey;
+    transition: 0.5s;
+    
+}
+
+.testimonial .items:hover {
+
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.testimonial .items:hover p,
+.testimonial .items:hover span {
+
+    color: #fff;
+
+}
+
+.testimonial .items:hover i {
+
+    background-color: #fff;
+    color: #1eb2a6;
+    
 }

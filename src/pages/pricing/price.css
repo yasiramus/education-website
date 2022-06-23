@@ -1,0 +1,34 @@
+.Priced .items {
+
+    text-align: center;
+    padding: 40px;
+
+}
+
+/* dollar sign and Priced  */
+.Priced h1 {
+
+    font-size: 50px;
+    margin: 20px 0;
+    color: #1eb2a6;
+
+}
+
+/* dollar sign only  */
+.Priced h1 span {
+
+    font-size: 20px;
+    margin-right: 5px;
+    color: #000;
+
+}
+
+/* description  */
+.Priced p {
+
+    color: grey;
+    margin: 20px 0 40px;
+    word-break: break-all;
+    word-spacing: .5px;
+
+}

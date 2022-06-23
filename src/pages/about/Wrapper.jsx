@@ -17,9 +17,9 @@ const Wrapper = () => {
                 <div className="container grid">
 
                     {/* mapping through the wrapper data to access individual data  */}
-                    {awrapper.map(val => (
+                    {awrapper.map( (val,index) => (
                         
-                        <div className="box flex">
+                        <div className="box flex" key = {index}>
 
                             {/* image section  */}
                             <div className="img">

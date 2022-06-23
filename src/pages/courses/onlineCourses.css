@@ -83,7 +83,7 @@
 }
 
 /* image png with the className show  */
-.onlineCourses .box:hover .show:hover {
+.onlineCourses .box:hover .show {
 
     opacity:1;
     position:absolute;
