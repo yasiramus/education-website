@@ -7,6 +7,7 @@ import AboutCard from "../about/AboutCard";
 import HomeAbout from "./HomeAbout";
 
 import Testimonial from "../../components/testimonial/Testimonial";
+import HomeBlog from "../../components/homeBlog/HomeBlog";
 
 const Home = () => {
 
@@ -21,6 +22,8 @@ const Home = () => {
             <HomeAbout />
             
             <Testimonial/>
+
+            <HomeBlog/>
             
         </>
         

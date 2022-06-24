@@ -21,6 +21,7 @@ import Teams from "./pages/teams/Teams";
 
 // the price component 
 import Price from "./pages/pricing/Price";
+import Blog from "./pages/blog/Blog";
 
 const App = () => {
 
@@ -49,6 +50,9 @@ const App = () => {
 
            {/* price component */}
           <Route path="/pricing" element={< Price/>}></Route>
+          
+          {/* price component */}
+          <Route path="/journal" element={< Blog />}></Route>
           
         </Routes>
 

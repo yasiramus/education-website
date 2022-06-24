@@ -355,54 +355,56 @@ export const homeAbout = [
       type: "admin",
       date: "JAN. 18, 2021",
       com: "3 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b1.webp",
+      title: "Build On your Career",
+      desc: "He watched as the young man tried to impress everyone in the room with his intelligence. There was no doubt that he was smart. The fact that he was more intelligent than anyone else in the room could have been easily deduced, but nobody was really paying any attention due to the fact that it was also obvious that the young man only cared about his intelligence.",
+      cover: "../Images/blogcomment/blog6.webp",
     },
     {
       id: 2,
-      type: "admin",
+      type: "user",
       date: "API. 25, 2022",
       com: "5 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b2.webp",
+      title: "Build your Dream  Engineering Career",
+      desc: "The robot clicked disapprovingly, gurgled briefly inside its cubical interior and extruded a pony glass of brownish liquid. 'Sir, you will undoubtedly end up in a drunkard's grave, dead of hepatic cirrhosis,' it informed me virtuously as it returned my ID card. I glared as I pushed the glass across the table.",
+      cover:  "../Images/blogcomment/blog2.webp"
     },
     {
       id: 3,
-      type: "user",
+      type: "admin",
       date: "MAY. 15, 2022",
       com: "10 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b3.webp",
+      title: "Build your Dream Software Engineering Career",
+      desc: "He was an expert but not in a discipline that anyone could fully appreciate,He was an expert but not in a discipline that anyone could fully appreciate.",
+      cover:  "../Images/blogcomment/blog5.webp"
     },
-    {
-      id: 4,
-      type: "admin",
-      date: "JAN. 02, 2022",
-      com: "3 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b4.webp",
-    },
-    {
-      id: 5,
-      type: "admin",
-      date: "DEC. 14, 2022",
-      com: "3 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b5.webp",
-    },
+  
+   
     {
       id: 6,
       type: "user",
       date: "JAN. 18, 2021",
       com: "12 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b6.webp",
+      title: "Build your Dream Career",
+      desc: "The computer wouldn't start. She banged on the side and tried again, Nothing,He was an expert but not in a discipline that anyone could fully appreciate! He was an expert but not in a discipline that anyone could fully appreciate",
+      cover:  "../Images/blogcomment/blog3.jpg"
+    },
+    {
+      id: 4,
+      type: "user",
+      date: "JAN. 02, 2022",
+      com: "3 COMMENTS ",
+      title: "Build your Dream Backened Career",
+      desc: "It seemed like it should have been so simple. There was nothing inherently difficult with getting the project done. It was simple and straightforward enough that even a child should have been able to complete it on time, but that wasn't the case.",
+      cover:  "../Images/blogcomment/blog1.jpg"
+    },
+    {
+      id: 5,
+      type: "admin",
+      date: "MAR. 14, 2022",
+      com: "3 COMMENTS ",
+      title: "Build your Dream Frontend Career",
+      desc: "It was a concerning development that he couldn't get out of his mind and contine with his projects,It was a concerning development that he couldn't get out of his mind and contine with his projects.",
+      cover:  "../Images/blogcomment/blog4.webp"
     },
 ]
   
