@@ -58,6 +58,7 @@
 footer {
 
     background-color: #eeeeee;
+    padding: 60px 0 50px;
 
 }
 
@@ -67,6 +68,16 @@ footer .container {
     grid-template-columns: 3fr 2fr 2fr 4fr 3fr;
     gap: 30px;
 
+}
+
+@media screen and (max-width:768px) {
+    
+    footer .container {
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
 
 }
 
@@ -83,6 +94,7 @@ footer .logo p {
 
     color: grey;
     margin: 30px 0 15px 0;
+
 }
 
 /* social media icons  */
@@ -91,7 +103,14 @@ footer .logo .icon {
     background-color: #1eb2a6;
     color: #fff;
     margin-right: 10px;
+    transition: .3s ease-in .1s;
 
+}
+
+footer .logo .icon:hover {
+
+    background-color: #fff;
+    color: #1eb2a6 ;
 
 }
 
@@ -110,8 +129,117 @@ footer .logo i {
 }
 
 /* link section  */
+footer ul li {
+
+    margin-bottom: 20px;
+
+}
+
+/* arrow key  */
 footer .link li::before {
 
-    content: "";
+    content: "\01F81A";
     color: #1eb2a6;
+    margin-right: 15px;
+
+}
+
+/* blog post section  */
+footer .item {
+
+    margin-bottom: 30px;
+    display: flex;
+
+}
+
+/* footer img section  */
+footer .item img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+    object-fit: cover;
+
+}
+
+footer .item span,
+footer .item i
+ {
+
+    font-size: 12px;
+    color: #1eb2a6;
+    margin-right: 5px;
+    text-transform: capitalize;
+
+}
+
+/* title section  */
+footer h4 {
+
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+/* have a question section */
+footer .last ul li {
+
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+/* Link text color  */
+footer .link ul li a {
+
+    color: #000;
+
+}
+
+/* icon  */
+footer .last i {
+
+    width: 60px;
+    font-size: 20px;
+    color: #1eb2a6;
+    
+}
+
+/* copy right section */
+.legal {
+
+    text-align: center;
+    padding: 50px 0;
+    color: grey;
+    background-color: #e9e9e9;
+}
+
+.legal p {
+
+    word-spacing: 2px;
+}
+
+.legal p i {
+
+    margin-left: 6px;
+    color: #1eb2a6;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .legal  {
+
+        font-size: 15px;
+       
+    }
+
+    .legal p {
+
+        max-width: 90%;
+        margin: 0 auto;
+
+    }
+
 }

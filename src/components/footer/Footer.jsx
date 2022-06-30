@@ -1,4 +1,6 @@
 // footer component
+// Link importation from react-router-dom 
+import { Link } from "react-router-dom";
 
 import { blog } from "../../dummyData";
 import "./footer.css";
@@ -37,7 +39,7 @@ const Footer = () => {
             
             <footer>
 
-                <div className="container Padding">
+                <div className="container">
 
                     {/* logo section  */}
                     <div className="box logo">
@@ -46,7 +48,7 @@ const Footer = () => {
 
                         <span>ONLINE EDUCATION FOR LEARNERS</span>
 
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error totam est omnis illo, doloribus hic eveniet nesciunt.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error totam est omnis illo, doloribus hic eveniet nesciunt, amet consectetur adipisicing elit. Error totam est omnis illo.</p>
 
                          {/* social media handle icons section  */}
 
@@ -67,14 +69,14 @@ const Footer = () => {
 
                         <ul>
 
-                            <li>About Us</li>
+                            <li><Link to = "/">Home</Link></li>
+                            
+                            <li><Link to = "/about">About Us</Link></li>
+                            
+                            <li><Link to = "/courses">Courses</Link></li>
 
-                            <li>About Us</li>
-
-                            <li>About Us</li>
-
-                            <li>About Us</li>
-
+                            <li><Link to = "/team">Teams</Link></li>
+                        
                         </ul>
 
                     </div>
@@ -86,13 +88,13 @@ const Footer = () => {
 
                         <ul>
 
-                            <li>About Us</li>
+                            <li><Link to = "/pricing">Prices</Link></li>
 
-                            <li>About Us</li>
+                            <li><Link to = "/journal">Blog Post</Link></li>
 
-                            <li>About Us</li>
+                            <li><Link to="/contact">Contact Us</Link></li>
 
-                            <li>About Us</li>
+                            <li><Link to = "/courses">Courses</Link></li>                          
 
                         </ul>
 
@@ -105,7 +107,7 @@ const Footer = () => {
 
                         {blog.slice(0,3).map((val, index) => (
                         
-                            <div className="items flexSB" key={index}>
+                            <div className="item" key={index}>
 
                                 <div className="img">
 
@@ -130,7 +132,7 @@ const Footer = () => {
                                             {/* calendar section  */}
                                         <i className="fa fa-calendar-alt"></i>
 
-                                        <label>{val.date}</label>
+                                        <label>{val.date}</label>    
 
                                     </span>
 
@@ -163,7 +165,7 @@ const Footer = () => {
                             <li>
 
                                 {/* phone icon  */}
-                                <i className="fa fa-phone-alt"></i>
+                                <i className="fa fa-phone"></i>
 
                                 +233 501 863 922
 
@@ -189,7 +191,7 @@ const Footer = () => {
               {/* copy right section */}
             <div className="legal">
 
-                <p>Copyright @2022 All right reserved | This web is made with
+                <p>Copyright @ 2022 All right reserved | This web is made with 
 
                     <i className="fa fa-heart"></i> by Yasira Musah
 
