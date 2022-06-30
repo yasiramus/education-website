@@ -8,6 +8,7 @@ import HomeAbout from "./HomeAbout";
 
 import Testimonial from "../../components/testimonial/Testimonial";
 import HomeBlog from "../../components/homeBlog/HomeBlog";
+import HomePrices from "../../components/priceHome/HomePrices";
 
 const Home = () => {
 
@@ -23,7 +24,9 @@ const Home = () => {
             
             <Testimonial/>
 
-            <HomeBlog/>
+            <HomeBlog />
+            
+            <HomePrices/>
             
         </>
         

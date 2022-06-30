@@ -22,6 +22,8 @@ import Teams from "./pages/teams/Teams";
 // the price component 
 import Price from "./pages/pricing/Price";
 import Blog from "./pages/blog/Blog";
+import Contact from "./pages/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
 
@@ -54,8 +56,13 @@ const App = () => {
           {/* price component */}
           <Route path="/journal" element={< Blog />}></Route>
           
+          {/* contact component */}
+          <Route path="/contact" element={< Contact />}></Route>
+
         </Routes>
 
+        <Footer />
+        
       </Router>
       
     </div>
