@@ -1,3 +1,4 @@
+/* .newsLetter section start  */
 .newsLetter {
 
     background-color: #1eb2a6;
@@ -53,6 +54,7 @@
     background-color: #fff;
 
 }
+/* .newsLetter ends here  */
 
 /* footer section  */
 footer {
@@ -62,6 +64,7 @@ footer {
 
 }
 
+/* sub main container  */
 footer .container {
 
     display: grid;
@@ -70,6 +73,7 @@ footer .container {
 
 }
 
+/* media query  */
 @media screen and (max-width:768px) {
     
     footer .container {
@@ -80,8 +84,11 @@ footer .container {
     }
 
 }
+/* media query ends here  */
 
-/* online edu  */
+/* logo section start  */
+
+/* online edu span  */
 footer .logo span {
 
     color: #1eb2a6;
@@ -114,6 +121,13 @@ footer .logo .icon:hover {
 
 }
 
+footer .logo i {
+
+    margin-bottom: 20px;
+
+}
+/* social media handle icons section ends here  */
+
 /* all h3 in footer  */
 footer h3 {
 
@@ -122,13 +136,9 @@ footer h3 {
 
 }
 
-footer .logo i {
+/* logo section ends here  */
 
-    margin-bottom: 20px;
-
-}
-
-/* link section  */
+/* explore section and quicklink section  */
 footer ul li {
 
     margin-bottom: 20px;
@@ -143,6 +153,7 @@ footer .link li::before {
     margin-right: 15px;
 
 }
+/* explore section and quicklink section  end here*/
 
 /* blog post section  */
 footer .item {
@@ -152,7 +163,7 @@ footer .item {
 
 }
 
-/* footer img section  */
+/* footer blog post img section  */
 footer .item img {
 
     width: 50px;
@@ -163,6 +174,7 @@ footer .item img {
 
 }
 
+/* span and the icons */
 footer .item span,
 footer .item i
  {
@@ -174,13 +186,14 @@ footer .item i
 
 }
 
-/* title section  */
-footer h4 {
+/*blog title section  */
+footer .text h4 {
 
     font-weight: 400;
     margin-top: 5px;
 
 }
+/* blog post section ends here */
 
 /* have a question section */
 footer .last ul li {
@@ -190,14 +203,14 @@ footer .last ul li {
 
 }
 
-/* Link text color  */
+/* all Link text color  */
 footer .link ul li a {
 
     color: #000;
 
 }
 
-/* icon  */
+/* have a question icon  */
 footer .last i {
 
     width: 60px;
@@ -205,6 +218,9 @@ footer .last i {
     color: #1eb2a6;
     
 }
+/* have a question section styling ends here*/
+
+/* footer section end here  */
 
 /* copy right section */
 .legal {
@@ -227,6 +243,7 @@ footer .last i {
 
 }
 
+/* media query  */
 @media screen and (max-width:768px) {
 
     .legal  {
@@ -243,3 +260,6 @@ footer .last i {
     }
 
 }
+/* media query end here  */
+
+/* copy right section */

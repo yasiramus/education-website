@@ -21,7 +21,6 @@ const AboutCard = () => {
 
             <div className="left row">
 
-              {/* <img src="./images/about.webp" alt="about" /> */}
               <img src="./Images/happystudent.jpg" alt="about" />
 
             </div>

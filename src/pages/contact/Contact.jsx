@@ -1,7 +1,9 @@
 // contact component 
+
 // back component importation 
 import Back from '../../components/back/Back';
 
+// css
 import "./contact.css";
 
 // Contact card importation 

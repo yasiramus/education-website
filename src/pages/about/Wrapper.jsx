@@ -15,7 +15,7 @@ const Wrapper = () => {
             <section className="wrapper">
                 
                 <div className="container grid">
-
+        
                     {/* mapping through the wrapper data to access individual data  */}
                     {awrapper.map( (val,index) => (
                         

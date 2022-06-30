@@ -3,6 +3,7 @@
 const ContactCard = () => {
 
     const map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15882.113393185125!2d-0.1670703307932403!3d5.636402538677077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b59caa46fad%3A0xd1fef56a352e9ec6!2sExhale%20lounge!5e0!3m2!1sen!2sgh!4v1656199636329!5m2!1sen!2sgh";
+
     return (
       
         <>
@@ -13,7 +14,6 @@ const ContactCard = () => {
 
                     <div className="left row">
 
-                        {/* <iframe src={map} width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe> */}
                         <iframe src={map}  title={map} loading="lazy" frameborder="0"></iframe>
 
                     </div>
@@ -39,7 +39,7 @@ const ContactCard = () => {
 
                                 <h4>Email: </h4>
 
-                                <p>info@gmail.com</p>
+                                <p>info@sheReigns.com</p>
 
                             </div>
 

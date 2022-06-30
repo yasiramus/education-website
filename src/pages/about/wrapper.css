@@ -70,4 +70,16 @@
         
     }
 
+    .wrapper img {
+
+       width: 50px;
+    
+    }
+
+    .wrapper h1 {
+
+        font-size: 30px;
+    
+    }
+
 }
