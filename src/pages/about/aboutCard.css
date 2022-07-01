@@ -87,5 +87,14 @@
     .aboutHome .row {
 
         width: 100%;
+
     }
+
+    .aboutHome #heading {
+        
+        text-align: left;
+        padding: 470px 0 0;
+
+    }
+    
 }
