@@ -24,7 +24,7 @@
 /*___________html header___________*/
 header{
 
-    margin: 0 30px;
+    margin: 0;
     background-color: rgba(255, 255, 255, .2);
     position:relative;
 
@@ -130,11 +130,22 @@ header ul li a:hover{
     /* hover on the link  */
     header ul li a:hover{
     
-    color: #0af8e4;
-    transition: .2s;
+        color: #0af8e4;
+        transition: .2s;
 
     }
 
+    .logo h1{
+
+        font-size: 20px;
+
+    }
+
+    .logo span {
+
+        font-size: 15px;
+        
+    }
 
     /* toogles */
     .toggle {
@@ -162,5 +173,16 @@ header ul li a:hover{
     }
 
 }
+
+
+/* @media screen and (min-width:480px) {
+    
+    .logo h1{
+
+        font-size: 20px;
+
+    }    
+    
+} */
 
 

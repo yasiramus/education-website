@@ -30,5 +30,28 @@
     margin: 20px 0 40px;
     word-break: break-all;
     word-spacing: .5px;
+    font-size: 15px;
 
+}
+
+@media screen and (max-width:768px) {
+    
+    .Priced .items {
+
+        padding: 20px;
+    
+    }
+
+    .Priced h1 {
+
+        font-size: 30px;
+    
+    }
+
+    .Priced p {
+
+        /* font-size: 15px; */
+        margin: 15px 0 30px;
+
+    }
 }

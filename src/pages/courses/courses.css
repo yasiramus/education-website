@@ -51,7 +51,7 @@
 
 .coursesCard .text h1 {
 
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 45px;
 
@@ -147,7 +147,9 @@
  
     .grid2 {
 
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(1, 1fr);
+
             
     }
 

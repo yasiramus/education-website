@@ -56,11 +56,12 @@
 
 @media screen and (max-width:768px) {
 
-    /* .wrapper {
+    .wrapper .box {
 
-        height: 50vh;
+        width: 50px;
+        margin: auto;
 
-    } */
+    }
 
     .grid {
 
@@ -70,15 +71,27 @@
         
     }
 
-    .wrapper img {
+    .wrapper .img {
 
        width: 50px;
     
     }
 
+    .wrapper img {
+
+        width: 40px;
+     
+     }
+
     .wrapper h1 {
 
-        font-size: 30px;
+        font-size: 25px;
+    
+    }
+
+    .wrapper h3 {
+
+        font-size: 15px;
     
     }
 

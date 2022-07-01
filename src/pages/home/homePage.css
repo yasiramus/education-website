@@ -108,7 +108,8 @@
         
         background-position:right;
         padding-top: 50%;
-        height: auto;
+        /* height: auto; */
+        height: 59rem;
         /* margin-bottom: 100px; */
         
     }

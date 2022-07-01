@@ -94,15 +94,27 @@
 
         text-align: left;
         /* padding: 430px 0 0; */
-        margin: 240px 0 0;
+        margin: 300px 0 0;
 
 
     }
 
     .aboutHome #heading  h3{
 
-       font-size: 15px;
+       font-size: 14px;
 
     }
     
+    .aboutHome .right {
+
+        padding: 80px 0;
+        margin-top: 80px;
+    
+    }
+
+    .aboutHome .img {
+
+        margin-right: 9px;
+
+    }
 }
