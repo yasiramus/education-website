@@ -21,3 +21,13 @@
     margin: 20px 0;
 
 }
+
+@media screen and (max-width:768px){
+    
+    #heading h1 {
+
+        font-size: 25px;
+    
+    }
+
+}

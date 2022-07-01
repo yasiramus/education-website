@@ -91,9 +91,17 @@
     }
 
     .aboutHome #heading {
-        
+
         text-align: left;
-        padding: 470px 0 0;
+        /* padding: 430px 0 0; */
+        margin: 240px 0 0;
+
+
+    }
+
+    .aboutHome #heading  h3{
+
+       font-size: 15px;
 
     }
     
