@@ -94,8 +94,7 @@
 
         text-align: left;
         /* padding: 430px 0 0; */
-        margin: 300px 0 0;
-
+        margin: 250px 0 0;
 
     }
 
@@ -107,8 +106,8 @@
     
     .aboutHome .right {
 
-        padding: 80px 0;
-        margin-top: 80px;
+        padding: 30px 0 80px;
+        /* margin-top: 80px; */
     
     }
 
