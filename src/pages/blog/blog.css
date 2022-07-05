@@ -60,3 +60,12 @@
     font-size: 15px;
 
 }
+
+@media screen and (max-width:768px) {
+    
+    .blog span label {
+       
+        font-size: 11px;
+        
+    }    
+}

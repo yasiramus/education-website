@@ -61,7 +61,7 @@ body{
 /* list style  */
 li {
 
-  letter-spacing: none;
+  /* letter-spacing: none; */
   list-style: none;
 
 }

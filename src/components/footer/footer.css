@@ -105,6 +105,7 @@ footer .container {
 
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        gap: 0;
     
     }
 
@@ -244,6 +245,38 @@ footer .last i {
     color: #1eb2a6;
     
 }
+
+/* media query  */
+@media screen and (max-width:768px) {
+
+    /* blog post section  */
+    footer .item {
+
+        flex-flow: column;
+
+    }
+
+    footer .text h4 {
+
+        font-size: 13px;
+
+    }
+
+    footer .link ul li a,
+    footer ul li {
+
+        font-size: 12px;
+
+    }
+
+    footer h3 {
+
+        font-size: 16px;
+
+    }
+
+}
+
 /* have a question section styling ends here*/
 
 /* footer section end here  */
@@ -274,7 +307,7 @@ footer .last i {
 
     .legal  {
 
-        font-size: 15px;
+        font-size: 13px;
        
     }
 
