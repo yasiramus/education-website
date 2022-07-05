@@ -8,18 +8,23 @@
 
 }
 
+.newsLetter .flexSB {
+
+    gap: 20px;
+
+}
 /* input field section with the icon  and the texts*/
-.newsLetter .left,
+/* .newsLetter .left,
 .newsLetter .right {
 
     padding-right: 50px;
 
-}
+} */
 
 /* Newsletter stay tune  */
 .newsLetter h1 {
 
-    columns: #fff;
+    color: #fff;
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -76,6 +81,26 @@ footer .container {
 /* media query  */
 @media screen and (max-width:768px) {
     
+    .newsLetter h1 {
+
+        font-size: 20px;
+
+    }
+
+    .newsLetter .left span{
+
+        font-size: 15px;
+
+    }
+
+    .newsLetter input {
+
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 9px;
+
+    }
+
     footer .container {
 
         display: grid;
