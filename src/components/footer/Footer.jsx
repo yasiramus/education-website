@@ -60,13 +60,17 @@ const Footer = () => {
 
                          {/* social media handle icons section  */}
 
-                        <i className="fab fa-facebook-f icon"></i>
+                        <div className="footersocialmedia">
 
-                        <i className="fab fa-instagram icon"></i>
+                            <i className="fab fa-facebook-f icon"></i>
 
-                        <i className="fab fa-twitter icon"></i>
+                            <i className="fab fa-instagram icon"></i>
 
-                        <i class="fa-brands fa-linkedin-in icon"></i>
+                            <i className="fab fa-twitter icon"></i>
+
+                            <i class="fa-brands fa-linkedin-in icon"></i>
+
+                        </div>    
 
                         {/* social media handle icons section  ends here  */}
                         
@@ -94,7 +98,7 @@ const Footer = () => {
                     {/* explore us section ends here  */}
 
                     {/* quick link section  */}
-                    <div className="box link">
+                    <div className="box link" id="quickLink">
 
                         <h3>Quick Link</h3>
 
@@ -114,7 +118,7 @@ const Footer = () => {
                     {/* quick link section end here  */}
 
                     {/* blog post section  */}
-                    <div className="box">
+                    <div className="box" id="recentPost">
 
                         <h3>Recent Post</h3>
 

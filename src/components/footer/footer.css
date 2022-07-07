@@ -246,6 +246,12 @@ footer .last i {
     
 }
 
+footer .last span {
+
+    width: 100%;
+
+}
+
 /* media query  */
 @media screen and (max-width:768px) {
 
@@ -253,6 +259,12 @@ footer .last i {
     footer .item {
 
         flex-flow: column;
+
+    }
+
+    .footersocialmedia {
+
+        display: flex;
 
     }
 
@@ -275,10 +287,10 @@ footer .last i {
 
     }
 
-    footer .last span {
+    #quickLink,
+    #recentPost {
 
-        /* margin-right: 20px; */
-        width: 100%;
+        margin-top: 20px;
 
     }
 
