@@ -88,3 +88,20 @@
     color: #1eb2a6;
     
 }
+
+/* media query  */
+@media screen and (max-width:768px) {
+
+    .testimonial .items {
+
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+
+    .testimonial .name {
+
+        margin: 20px 15px;
+    
+    }
+}
