@@ -38,7 +38,7 @@
     
     .Priced .items {
 
-        padding: 20px;
+        padding: 20px 10px;
     
     }
 
@@ -50,8 +50,7 @@
 
     .Priced p {
 
-        /* font-size: 15px; */
-        margin: 15px 0 30px;
+        font-size: 12px;
 
     }
 }
