@@ -174,7 +174,7 @@ const Footer = () => {
                                 {/* map icon  */}
                                 <i className="fa fa-map"></i>
                                 
-                                Exhale lounge 25-35 Garden Rd, Accra
+                                <span>Exhale lounge 25-35 Garden Rd, Accra</span>
 
                             </li>
 
@@ -183,7 +183,7 @@ const Footer = () => {
                                 {/* phone icon  */}
                                 <i className="fa fa-phone"></i>
 
-                                +233 501 863 922
+                               <span>+233 501 863 922</span>
 
                             </li>
 
@@ -192,7 +192,7 @@ const Footer = () => {
                                 {/* plane icon  */}
                                 <i className="fa fa-paper-plane"></i>
 
-                                info@sheReigns.com
+                               <span>info@sheReigns.com</span>
 
                             </li>
 

@@ -275,6 +275,13 @@ footer .last i {
 
     }
 
+    footer .last span {
+
+        /* margin-right: 20px; */
+        width: 100%;
+
+    }
+
 }
 
 /* have a question section styling ends here*/
