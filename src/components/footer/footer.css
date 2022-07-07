@@ -105,7 +105,7 @@ footer .container {
 
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 12px;
+        gap: 20px;
     
     }
 
@@ -175,9 +175,10 @@ footer ul li {
 /* arrow key  */
 footer .link li::before {
 
-    content: "\01F81A";
+    content: "\2192";
     color: #1eb2a6;
     margin-right: 15px;
+    font-size: 15px;
 
 }
 /* explore section and quicklink section  end here*/
@@ -264,10 +265,17 @@ footer .last span {
 
     .footersocialmedia {
 
-        display: flex;
+        display: flex;    
 
     }
 
+    footer .logo .icon {
+
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+
+    }
     footer .text h4 {
 
         font-size: 13px;
