@@ -10,7 +10,7 @@ const ContactCard = () => {
       
             <section className="contact Padding">
 
-                <div className="container shadow flexSB">
+                <div className="container shadow flexSB" id="contactPage">
 
                     <div className="left row">
 
