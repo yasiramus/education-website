@@ -7,6 +7,8 @@ import { coursesCard } from "../../dummyData";
 
 import OnlineCourses from "../courses/OnlineCourses";
 
+import "./homeabout.css";
+
 const HomeAbout = () => {
 
   return (
