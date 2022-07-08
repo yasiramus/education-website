@@ -62,11 +62,11 @@
 }
 
 @media screen and (max-width:768px) {
-    /* .blog .container {
+    .blog .container {
 
         margin-top: 25rem;
 
-    } */
+    }
 
     .blog span label {
        

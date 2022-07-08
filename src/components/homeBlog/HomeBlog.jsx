@@ -3,6 +3,8 @@ import Title from "../title/Title"
 
 import { blog } from "../../dummyData";
 
+import "./homeblog.css";
+
 const HomeBlog = () => {
 
     return (
@@ -11,7 +13,7 @@ const HomeBlog = () => {
       
         <section className="blog">
               
-              <div className="container">
+              <div className="container" id="homeBlog">
                   
                 <Title subTitle={"our blog"} title="recent from our blog" />
                   
