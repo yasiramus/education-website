@@ -35,6 +35,11 @@
 }
 
 @media screen and (max-width:768px) {
+    .Priced .container {
+
+        margin-top: 80%;
+
+    }
     
     .Priced .items {
 
