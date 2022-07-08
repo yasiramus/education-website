@@ -77,13 +77,13 @@
     
     #contactPage {
 
-        margin-top: 100%;
+        margin-top: 40rem;
 
     }
     .contact .container {
 
         flex-direction: column;
-        
+
     }
 
     .contact iframe {
