@@ -92,3 +92,18 @@ transition: .5s;
     background-color: #fff;
 
 }
+
+@media screen and (max-width:768px) {
+    .Team .container {
+
+        margin-top: 25rem;
+
+    }    
+
+    .Team .details {
+
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+}
