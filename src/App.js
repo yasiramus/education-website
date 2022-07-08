@@ -1,28 +1,36 @@
 // importations of BrowserRouter as Router,Route  from react-router-dom 
-import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// this is also a parent component 
+// this is also a  sub parent entry component 
+
+// app.css importation 
 import './App.css';
 
-// the header component 
+// the header importation  from the component folder
 import Header from './components/headings/Header';
 
-// home component 
+// home page importation  from the page folder 
 import Home from './pages/home/Home';
 
-// about Component
+// about page importation  from the page folder
 import About from "./pages/about/About";
 
 // course home Component
 import CourseHome from "./pages/courses/CourseHome";
 
-// team component 
+// team page importation  from the page folder 
 import Teams from "./pages/teams/Teams";
 
-// the price component 
+// the price page importation  from the page folder
 import Price from "./pages/pricing/Price";
+
+// blog page importation  from the page folder
 import Blog from "./pages/blog/Blog";
+
+// contact page importation  from the page folder
 import Contact from "./pages/contact/Contact";
+
+// footer component importation  from the component folder
 import Footer from "./components/footer/Footer";
 
 const App = () => {
@@ -33,12 +41,15 @@ const App = () => {
 
       <Router>
 
-          {/* header component */}
+        {/* making header component available to all other pages */}
         <Header />
         
+        {/*Routes a container for a nested tree of elements that renders the branch that best matches the current location */}
         <Routes>
 
-            {/* home component route */}
+          {/* the Route Declares an element that should be rendered at a certain URL path. */}
+
+          {/* home component route */}
           <Route index element = { <Home/> }></Route>
          
           {/* about component route */}
@@ -60,7 +71,8 @@ const App = () => {
           <Route path="/contact" element={< Contact />}></Route>
 
         </Routes>
-
+        
+        {/* making header component available to all other pages */}
         <Footer />
         
       </Router>

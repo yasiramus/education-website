@@ -1,3 +1,5 @@
+/* the css styling here is general it affect all html tags and classnames declared */
+
 /* googole font  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
 
@@ -15,11 +17,10 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #f8f8f8;
   /* background-color: #858484; */
-  scroll-behavior: smooth;
   
 }
 
-/* these styling is for the container in the head component  */
+/* these styling is for the container*/
 .container {
 
   max-width: 85%;
@@ -27,7 +28,7 @@ body{
 
 }
 
-/* flexSB classname is used for in head and header components  */
+/* flexSB classname is used for in head and header components and within other component and pages */
 .flexSB{
 
   display: flex;
@@ -61,7 +62,6 @@ body{
 /* list style  */
 li {
 
-  /* letter-spacing: none; */
   list-style: none;
 
 }
