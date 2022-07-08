@@ -75,7 +75,7 @@ const ContactCard = () => {
 
                         </form>
 
-                        <h3>Follow us here</h3>
+                        <h3>Follow us on</h3>
 
                         <span>FACEBOOK TWITTER INSTAGRAM LINKEDIN</span>
 
