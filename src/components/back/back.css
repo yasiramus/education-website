@@ -51,14 +51,21 @@
 
     .Margin {
 
-        margin-top: 90%;
+        margin-top: 0;
         /* margin-top: 60%; */
 
     
     }
 
-}
+    .back h1 {
 
-@media screen and (min-width:480px) {
+        font-size: 50px;
     
+    }
+    
+    .back h2 {
+    
+        font-size: 14px;
+    
+    }
 }
