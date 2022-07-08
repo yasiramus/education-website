@@ -148,9 +148,10 @@
     .coursesCard {
 
         margin-top:80%;
+        padding-top: 50px;
     
     }
-    
+
     .grid2 {
 
     /* grid-template-columns: repeat(2, 1fr); */
