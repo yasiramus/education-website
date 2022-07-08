@@ -64,10 +64,10 @@
 @media screen and (max-width:768px) {
     .blog .container {
 
-        margin-top: 80%;
+        margin-top: 30rem;
 
     }
-    
+
     .blog span label {
        
         font-size: 11px;
