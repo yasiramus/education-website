@@ -145,6 +145,12 @@
 
 @media screen and (max-width:768px) {
  
+    .coursesCard {
+
+        margin-top:80%;
+    
+    }
+    
     .grid2 {
 
     /* grid-template-columns: repeat(2, 1fr); */
@@ -161,9 +167,5 @@
         
     }
 
-    .coursesCard {
 
-        margin-top:80%;
-    
-    }
 }
